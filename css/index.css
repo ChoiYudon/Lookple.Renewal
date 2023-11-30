@@ -1,6 +1,6 @@
 body {
   background-color: #eaeaea;
-  font-family: 'Halant', serif;
+  font-family: "Halant", serif;
 }
 img {
   width: 100%;
@@ -204,7 +204,7 @@ section {
 /* sec3 영역 */
 .sec3 {
   position: relative;
-  background-image: url(../img/sec3.jpg);
+  background-image: url(/img/sec3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -277,7 +277,6 @@ section {
   position: absolute;
 }
 .sec4 .swiper-slide .img_list {
-  border: 1px solid red;
   height: calc(100% - 110px);
   width: 100%;
   position: relative;
@@ -353,11 +352,9 @@ section {
 @media (max-width: 1000px) {
   .sec4 {
     height: 65vh;
-    border: 1px solid red;
   }
   .sec4 .swiper {
     height: 80%;
-    border: 1px solid blue;
   }
   .sec4 .swiper-slide {
     height: calc(100% - 30px);
@@ -381,7 +378,6 @@ section {
   text-align: center;
 }
 .sec5 .sec5_text {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   gap: 5px;
@@ -439,28 +435,18 @@ section {
 /* footer */
 
 footer {
-  border: 1px solid #000;
   position: relative;
   width: 100%;
   height: 20vh;
-  display: flex;
-  justify-content: flex-start;
 }
 
 footer .csfooter {
-  border: 1px solid red;
   position: absolute;
   left: 0;
+  bottom: 15px;
   height: 120px;
   font-size: 11px;
-}
-.csfooter span {
-  font-weight: bold;
-}
-
-.csfooter p {
-  line-height: 27px;
-  padding-top: 10px;
+  line-height: 25px;
 }
 
 .footer_inner {
@@ -469,6 +455,7 @@ footer .csfooter {
   transform: translateX(-50%);
   line-height: 1.5rem;
   text-align: center;
+  top: 10px;
   font-size: 11px;
 }
 .footer_inner p img {
