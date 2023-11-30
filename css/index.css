@@ -204,7 +204,7 @@ section {
 /* sec3 영역 */
 .sec3 {
   position: relative;
-  background-image: url(/img/sec3.jpg);
+  background-image: url(../img/sec3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
